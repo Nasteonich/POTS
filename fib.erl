@@ -26,6 +26,3 @@ test() ->
     io:format("fib_p ~p~n", [fib_p(10)]),
     io:format("fib_g ~p~n", [fib_g(10)]),
     io:format("tail_fib ~p~n", [tail_fib(10)]).
-
-test_t() ->
-    timer:tc(fib, fib_g, [10]).
