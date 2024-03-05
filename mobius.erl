@@ -1,5 +1,5 @@
 -module(mobius).
--export([is_prime/1, prime_factors/1, is_square_multiple/1]).
+-export([is_prime/1, prime_factors/1, is_square_multiple/1, find_square_multiples/2]).
 
 % Сhecking whether a number is simple
 is_prime(1) -> false;	
