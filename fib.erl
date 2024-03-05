@@ -1,6 +1,6 @@
 -module(fib).
 -export([fib_p/1, fib_g/1, tail_fib/1]).
--export([test/0, test_t/0]).
+-export([test/0]).
 
 % Сalc fibonacci numbers with common recursion
 fib_p(N) ->
